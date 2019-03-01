@@ -9,8 +9,9 @@ public static void main(String args[])
 	int width=input.nextInt();
 	int height=input.nextInt();
 	int totsurarea=2*(length*width+width*height+height*length);
-	System.out.println(totsurarea);
+	System.out.print(totsurarea);
 	int volume=length*width*height;
-	System.out.println(volume);
+	System.out.print(" ");
+	System.out.print(volume);
 	}
 }
